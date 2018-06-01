@@ -11,17 +11,33 @@ h2 {
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
 }
 
 h3 {
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
+  text-align: center;
 }
 
-h4 {
+h4,
+a {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
+  text-align: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+  text-align: center;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
