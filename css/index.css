@@ -52,4 +52,6 @@ img.center {
   background-color: grey;
 }
 
-#lo
+#footer p {
+  text-align: left;
+}
